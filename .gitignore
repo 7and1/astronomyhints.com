@@ -29,7 +29,6 @@ yarn-error.log*
 
 # wrangler
 wrangler.toml
-wrangler.jsonc
 .open-next/
 .dev.vars
 .wrangler/
