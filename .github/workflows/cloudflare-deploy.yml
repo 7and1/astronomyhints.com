@@ -41,6 +41,9 @@ jobs:
         env:
           NODE_ENV: production
 
+      - name: Remove cache before deployment
+        run: rm -rf .next/cache
+
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
