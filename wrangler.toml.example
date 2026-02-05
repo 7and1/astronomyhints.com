@@ -1,6 +1,11 @@
 name = "astronomyhints"
-compatibility_date = "2024-01-01"
-pages_build_output_dir = ".next"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+main = ".open-next/worker.js"
+
+[[assets]]
+binding = "ASSETS"
+directory = ".open-next/assets"
 
 # Account ID should be set via environment variable CLOUDFLARE_ACCOUNT_ID
 # or wrangler.toml (not committed to git)
