@@ -1,0 +1,9 @@
+name = "astronomyhints"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = ".next"
+
+[build]
+command = "npm run build"
+
+# Account ID should be set via environment variable CLOUDFLARE_ACCOUNT_ID
+# or wrangler.toml (not committed to git)
